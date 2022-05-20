@@ -1,0 +1,17 @@
+.block
+  {
+    padding-top: 6px;
+    width: 22%;
+    border:solid 3px rgb(159, 156, 156);
+    border-radius: 10px;
+    background-color: rgb(216, 220, 224);
+  }
+ .properties
+ {
+    text-align: center;
+    font-family:Courier New, monospace;
+ }
+ .image
+ {
+    text-align: center;
+ }
