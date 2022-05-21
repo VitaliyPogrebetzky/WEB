@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/buttons.css">
+</head>
+<body>
+    <div class="modal">
+    <div class="overlay"></div>
+    <div class="modal_window">
+    <p class="title">RAM Options <button class="close">x</button></p>
+    <hr>
+    <br>
+    <form>
+        <div class="name">
+            <label for="name">RAM Name:</label><br>
+            <input class="RAM" type="text" id="name" placeholder="Input RAM name ..." size="60"><br><br>
+            <label for="producer">Producer:</label><br>
+            <input class="RAM" type="text" id="producer" placeholder="Input producer ..." size="60"><br><br>
+            <label>Appointment:</label> <br><br>
+            <label><input class="RAM" type="radio" name="status">Desktop PC</label> <br>
+            <label><input class="RAM" type="radio" name="status">Laptop</label><br><br>
+            <label for="type">Choose Type:</label>
+            <select id="type" name="type">
+            <option value="DDR5">DDR5</option>
+            <option value="DDR4">DDR4</option>
+            <option value="DDR3">DDR3</option>
+            <option value="DDR2">DDR2</option>
+            <option value="DDR1">DDR1</option>
+            <option value="DDR">DDR</option>
+            </select><br><br>
+            <label for="volume">Volume:</label><br>
+            <input class="RAM" type="text" id="volume" placeholder="Input volume ..." size="60"><br><br>
+            <label for="number_of_slats_in_the_set">Number of slats in the set:</label><br>
+            <input class="RAM" type="text" id="number_of_slats_in_the_set" placeholder="Input number of slats in the set ..." size="60"><br><br>
+            <div >
+                <input class="image" type="image" for="inputTVImage" id="TVimage"> <br><br>
+                <label class="brek" for="inputTVImage">Select image file:<br><br>
+                <input type="file" id="inputTVImage" class="modalInputProperty" onchange=showImage(this)>
+            </div><br>
+            <button class="confirm">Confirm</button>
+        </div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
