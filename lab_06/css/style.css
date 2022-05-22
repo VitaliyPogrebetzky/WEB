@@ -1,0 +1,29 @@
+img.left 
+ {
+ float: left;
+ margin: 5px 10px 5px 0;
+ }
+ h2 
+ {
+ clear: left;
+ background-color: #6B5B95;
+ color:rgb(255, 255, 255);
+ height: 50px;
+ line-height:50px;
+ padding-left: 20px;
+ border-top:solid 3px #4a4a4d;
+ border-bottom:solid 3px #4a4a4d;
+ }
+ .left-picture 
+ {
+    float: left;
+    margin: 0 10px 5px 0;
+    text-align: center;
+    border: 1px solid black;
+ }
+.element
+ {
+ float: left;
+ }
+
+   

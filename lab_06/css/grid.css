@@ -1,0 +1,67 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-areas:
+    "t t t t t t m m m m m m"
+    "c c c c c c m m m m m m"
+    "a a a a a a m m m m m m"
+    "f f f f f f f f f f f f";
+    }
+.title
+{
+grid-area: t;
+border: solid 2px rgb(180, 178, 177);
+font-family:Courier New, monospace;
+text-align: center;
+line-height: 50px;
+background-color: rgb(209, 221, 231);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+}
+.content 
+{
+grid-area: c;
+border: solid 2px rgb(180, 178, 177);
+font-family:Courier New, monospace;
+text-align: center;
+line-height: 50px;
+background-color: rgb(209, 221, 231);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+}
+.additional_section 
+{
+grid-area: a;
+border: solid 2px rgb(180, 178, 177);
+font-family:Courier New, monospace;
+text-align: center;
+line-height: 50px;
+background-color: rgb(209, 221, 231);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+}
+.menu 
+{
+grid-area: m;
+border: solid 2px rgb(180, 178, 177);
+font-family:Courier New, monospace;
+text-align: center;
+line-height: 150px;
+background-color: rgb(209, 221, 231);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+}
+.footer
+{
+grid-area: f;
+border: solid 2px rgb(180, 178, 177);
+font-family:Courier New, monospace;
+text-align: center;
+line-height: 50px;
+background-color: rgb(209, 221, 231);
+color: rgb(255, 255, 255);
+border-radius: 5px;
+}
+    
